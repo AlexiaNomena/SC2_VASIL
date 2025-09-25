@@ -31,7 +31,7 @@ Just copy and paste the mutation profiles displayed on the outbreak.info page in
 
 ## 3b. Alternative software and packages
 
-- You can copy and paste all the cells in `Hands_On.ipynb`into a new python file e.g.: "Hands_On.py" (within the same folder)
+- You can copy and paste all the cells in `Hands_On.ipynb`into a new python file e.g.: `Hands_On.py` (within the same folder)
 - Everything should run fine with a pre-installed python 3 version
 
 ## NB:
