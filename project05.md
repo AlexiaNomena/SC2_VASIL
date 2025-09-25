@@ -42,10 +42,15 @@ This will take a few days!
 
 Use the methods described in the Hands-on to obtain the mutation profiles of these variants.
 
-## 3. Reproduce the Relative fitness Trends of all the variants shown in Figure. 3 of Manuscript: (SARS-CoV2 Evolution on a dynamic Immune landscape)[https://www.nature.com/articles/s41586-024-08477-8]
+## 3. Reproduce the Relative fitness Trends of all the variants shown in Figure. 3 of Manuscript bellow: (
+Manuscript: (SARS-CoV2 Evolution on a dynamic Immune landscape)[https://www.nature.com/articles/s41586-024-08477-8]
+It does not need to look exactly the same, but you should be able to reproduce the trends
 
+**NB:** the appendage `.X` refers to all daughter variants with the parent included, and the trend is re-normalized to their respective proportions:
+i.e.
+$$\gamma_{Variant.X)(t) = \dfrac{\sum_{v is \mathcall{D}_{Variant}} \pi_v(t)\cdot\gamma_v(t)}{\sum_{v is \mathcall{D}_{Variant}} pi_v(t)}$$
 
-3) 
+Hints: Use `Project5_hints.ipynb`
 
 4) Analyze results.
 
