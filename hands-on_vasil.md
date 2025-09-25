@@ -35,4 +35,5 @@ Just copy and paste the mutation profiles displayed on the outbreak.info page in
 - Everything should run fine with a pre-installed python 3 version
 
 ## NB:
+If we have time, we will show you how to create environments in Anaconda and use it on your Jupyter Notebook
 If you have any installation problems, feel free to come to Arnimallee 3 Room 112 with your computer between 11 am and 4 pm
