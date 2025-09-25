@@ -16,8 +16,9 @@ Please visit [here](https://outbreak.info/compare-lineages?pango=JN.1&pango=EG.5
 There are two methods
 
 ### 1st method
-Get a GISAID user account: [GISAID] https://gisaid.org/register/ (This might take a few days!)
+Get a GISAID user account: [GISAID](https://gisaid.org/register/) (This might take a few days!)
 Use the R code `Hands_On.R` to extract the mutation profiles of any variant of your choice from outbreak.info
+For this, you will need to install R and RStudio on the command line (info [here](https://anaconda.org/conda-forge/r-base) and [here](https://anaconda.org/r/rstudio))
 
 ### 2nd method
 Just copy and paste the mutation profiles displayed on the outbreak.info page into a .txt file (we will show you in class)
@@ -33,3 +34,5 @@ Just copy and paste the mutation profiles displayed on the outbreak.info page in
 - You can copy and paste all the cells in `Hands_On.ipynb`into a new python file e.g.: "Hands_On.py" (within the same folder)
 - Everything should run fine with a pre-installed python 3 version
 
+## NB:
+If you have any installation problems, feel free to come to Arnimallee 3 Room 112 with your computer between 11 am and 4 pm
