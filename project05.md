@@ -39,7 +39,7 @@ This will take a few days!
 Use the methods described in the Hands-on to obtain the mutation profiles of these variants and compute their cross-reactivity 
 Plot the the result in a cross-reactivit map
 
-## 3. Reproduce the Relative fitness Trends of all the variants shown in the Figure. 3 of Manuscript below: 
+## 3. Reproduce the Relative fitness Trends of 5 of the variants (of your choice) shown in the Figure. 3 of Manuscript below: 
 Manuscript: (SARS-CoV2 Evolution on a dynamic Immune landscape)[https://www.nature.com/articles/s41586-024-08477-8]
 It does not need to look exactly the same, but you should be able to reproduce the trends
 
