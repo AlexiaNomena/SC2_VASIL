@@ -43,7 +43,7 @@ Plot the the result in a cross-reactivit map
 Manuscript: (SARS-CoV2 Evolution on a dynamic Immune landscape)[https://www.nature.com/articles/s41586-024-08477-8]
 It does not need to look exactly the same, but you should be able to reproduce the trends
 
-**NB:** the appendage `.X` refers to all daughter variants with the parent included, and the trend is re-normalized to their respective proportions (see Hints: `Project5_hints.ipynb` given [here](https://github.com/AlexiaNomena/SC2_VASIL))
+**NB:** the appendage `.X` refers to all daughter variants with the parent included, and the trend is re-normalized to their respective proportions (see Hints: `Project5_hints.ipynb` found [here](https://github.com/AlexiaNomena/SC2_VASIL))
 
 4) Analyze results.
 
