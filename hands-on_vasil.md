@@ -1,4 +1,4 @@
-# Hands-on session Day 4: Cross-immunization
+# Hands-on session Day 4: Cross-immunization & Relative Fitness
 
 ## Introduction
 In this hands-on session, we will compute the cross-immunization between several variants, the expected number of susceptibles to a given variant, and the relative fitness of a given variant. We will use Jupyter Notebook. 
