@@ -40,26 +40,12 @@ This will take a few days!
 * KP.3
 * XBB.1.5
 
+Use the methods described in the Hands-on to obtain the mutation profiles of these variants.
 
-__R code__
-```bash
-# login
-library(outbreakinfo)
-
-outbreakinfo::authenticateUser()
-
-# get mutations for JN.1 and KP.3:
-mutations = getMutationsByLineage(pangolin_lineage="JN.1" , frequency=0.75, logInfo = FALSE)
-
-# filter for Spike:
-mutations_s <- subset(mutations, gene=="S")
-```
-
-Save the mutations as text files with each mutation in a new line. 
+## 3. Reproduce the Relative fitness Trends of all the variants shown in Figure. 3 of Manuscript: (SARS-CoV2 Evolution on a dynamic Immune landscape)[https://www.nature.com/articles/s41586-024-08477-8]
 
 
-3) Go to the [VASIL web-app](https://projects-raharinirina.pythonanywhere.com/vasil/FoldR_PNeut/). Upload the all mutation profiles pairwise for lineage1 and lineage2 and run the app. Compute the cross-immunization between all pairs of variants. 
-The computation will take a while.
+3) 
 
 4) Analyze results.
 
