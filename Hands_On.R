@@ -1,3 +1,4 @@
+# install library outbreakinfo https://rdrr.io/github/outbreak-info/R-outbreak-info/
 library(outbreakinfo)
 
 lineages_of_interest <- "EG.5.1"
