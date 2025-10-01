@@ -1,3 +1,4 @@
+# install library outbreakinfo https://rdrr.io/github/outbreak-info/R-outbreak-info/
 library(outbreakinfo)
 
 lineages_of_interest <- "XBB.1.5"
