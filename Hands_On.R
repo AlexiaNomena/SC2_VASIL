@@ -1,6 +1,6 @@
 library(outbreakinfo)
 
-lineages_of_interest <- "EG.5.1"
+lineages_of_interest <- "XBB.1.5"
 
 ############ Login to gisaid.org in browser to initialize the session in this script:
 print("Please login to gisaid.org in browser to initialize the session in this script.")
@@ -21,5 +21,5 @@ lin_mut <- paste0(mutations_s$ref_aa,as.character(mutations_s$codon_num),mutatio
 
 # Save mutations as txt files with each mutations in a new line
 print(lin_mut)
-write.table(lin_mut, "data/input/EG_5_1.txt", eol="\n", row.names = FALSE)
+write.table(lin_mut, "data/input/XBB_1_5.txt", eol="\n", row.names = FALSE)
 
