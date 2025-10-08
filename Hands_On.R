@@ -1,9 +1,10 @@
 # install library outbreakinfo https://rdrr.io/github/outbreak-info/R-outbreak-info/
 library(outbreakinfo)
 
+# replace with the name of the lineage of your interest
 lineages_of_interest <- "XBB.1.5"
 
-############ Login to gisaid.org in browser to initialize the session in this script:
+############ GISAID credential needed: Login to gisaid.org in browser to initialize the session in this script:
 print("Please login to gisaid.org in browser to initialize the session in this script.")
 outbreakinfo::authenticateUser()
 
@@ -22,5 +23,7 @@ lin_mut <- paste0(mutations_s$ref_aa,as.character(mutations_s$codon_num),mutatio
 
 # Save mutations as txt files with each mutations in a new line
 print(lin_mut)
+
+# Please replace data/input/ with the name of the folder you want to place the result
 write.table(lin_mut, "data/input/XBB_1_5.txt", eol="\n", row.names = FALSE)
 
