@@ -24,6 +24,6 @@ lin_mut <- paste0(mutations_s$ref_aa,as.character(mutations_s$codon_num),mutatio
 # Save mutations as txt files with each mutations in a new line
 print(lin_mut)
 
-# Please replace data/input/ with the name of the folder you want to place the result
+# Please replace data/input/ with the name of the file and folder you want to place the result, and change XBB_1_5.txt to match your lineage
 write.table(lin_mut, "data/input/XBB_1_5.txt", eol="\n", row.names = FALSE)
 
